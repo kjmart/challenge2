@@ -1,0 +1,136 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>SURVEY FORM</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    
+    <div class="navbar">
+            <h1 id="title"> K J TECH UNIVERSITY </h1>
+            <h2>SURVEY FORM</h2>
+    </div>
+    <main class="main">
+    <br>
+
+    <p id="description">
+        Help us improve our services below
+    </p>
+    <form id="survey-form" action="">
+        <br>
+        <div class="personal-data">
+            
+     <label id="name-label"> Name : </label> <input type="text" name="" id="name" placeholder="Enter Your Name">
+        <br>
+        <br>
+     <label id="email-label"> Email : </label> <input type="email" name="" id="email" placeholder="Enter Your Email">
+        <br>
+        <br>
+     <label id="number-label"> Age : </label> <input type="number" name="" id="number" min="1" max="100" placeholder="Enter Your Age">
+     </div>
+        <br>
+        <br>
+        <div class="role">
+     <label > Which option best describes you ? </label> 
+     <select name="" id="dropdown">
+
+        <option disabled value=""> Select an option </option>
+        <option value="student"> Student </option>
+        <option value="stake-holder"> Stake Holder </option>
+        <option value="full-time-job"> full time job </option>
+        <option value="prefer-not-to-say"> Prefer not to say </option>
+        <option value="other"> Other </option>
+
+     </select>
+     </div>
+     <br>
+     <br>
+     <div class="recommend">
+     <label > Would you recommend KJ Tech ? </label>
+     <br>
+     <br><div id="recommend1">
+         <input type="radio" name="recommend"> <label> Definitely </label>
+    <br>
+    <br>
+         <input type="radio" name="recommend"> <label> May Be </label>
+     <br>
+     <br>
+         <input type="radio" name="recommend"> <label> Not sure </label>
+     <br>
+     <br>
+         <input type="radio" name="recommend"> <label> Prefer Not To Say </label>
+  </div>
+</div>
+<br>
+<br>
+    <div class="like">
+    <label > What do you like most at KJ Tech ? </label> 
+    <select name="" id="dropdown">
+
+    <option disabled value=""> Select an option </option>
+    <option value="challenges"> challenges </option>
+    <option value="projects"> Projects </option>
+    <option value="community"> community </option>
+    <option value="open-source"> open source </option>
+    <option value="team-work"> team work </option>
+    <option value="other"> prefer-not-to-say </option>
+
+    </select>
+    </div>
+        <br>
+        <br>
+    <div class="improve">
+         <label >Things that should be improved : <br> (check all that apply)</label>
+    <br>
+    <br>
+        <div id="improve1">
+         <input type="checkbox" name="front-end-projects"> <label> Front end projects </label>
+     <br>
+     <br>
+         <input type="checkbox" name="back-end-projects"> <label> Back end projects </label>
+    <br>
+    <br> 
+         <input type="checkbox" name="data-visualization"> <label> Data visualisation </label>
+     <br>
+     <br>
+         <input type="checkbox" name="challenges"> <label> Challenges </label>
+     <br>
+     <br>
+         <input type="checkbox" name="open-source-community"> <label> Open source community </label>
+     <br>
+     <br>
+         <input type="checkbox" name="gitter-help-rooms"> <label> Gitter help rooms </label>
+     <br>
+     <br>
+         <input type="checkbox" name="city-meet-ups"> <label> City meet ups </label>
+     <br>
+     <br>
+         <input type="checkbox" name="forum"> <label> Forum </label>
+         <br>
+         <br>
+             <input type="checkbox" name="overall-service"> <label> Overall services </label>
+     <br>
+     <br>
+         <input type="checkbox" name="addition-courses"> <label> Addition courses </label>
+     <br>
+     <br>
+     </div>
+     </div>
+     <br>
+     <br>
+     <div class="comment">
+         <label> Any Comments or Suggetions? </label> <br>
+         <div class="comment1">
+         <textarea name="textarea1" id="" cols="50" rows="5" placeholder="Enter your suggetion or comments here"></textarea>
+         </div>
+     <br>
+     <br>
+     </div>
+     <input class="button" type="submit" value="SUBMIT" name="submit">
+    </form>
+    </main>
+</body>
+</html>

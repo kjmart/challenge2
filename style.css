@@ -1,0 +1,111 @@
+
+body{
+    background-color: rgba(29, 95, 14, 0.904);
+}
+.main{
+    border: 2px solid white;
+    background-color: white;
+    width: 70%;
+    margin-left: 15%;
+    border-radius: 10px;
+}
+
+.navbar{
+    margin-top: -35px;
+	height: 150px;
+}
+#title{
+padding: 10px;
+font-size: 60px;
+text-align: center;
+color: white;
+}
+.navbar h2{
+text-align: center;
+padding: 20px;
+margin-top: -60px;
+font-size: 40px;
+color: white;
+}
+#description{
+    text-align: center;
+    font-size: 22px;
+    color: rgba(29, 95, 14, 0.904);
+}
+
+.personal-data{
+    padding-left: 30%
+}
+ label{
+    font-size: 22px;
+    color: rgba(29, 95, 14, 0.904);
+}
+
+#name{
+    margin-left: 30px;
+    width: 60%;
+    height: 30px;
+}
+#email{
+    margin-left: 30px;
+    width: 60%;
+    height: 30px;
+}
+#number{
+    margin-left: 46px;
+    width: 60%;
+    height: 30px;
+}
+.role{
+    margin-left: 9%;
+}
+#dropdown{
+    width: 20%;
+    height: 35px;
+}
+.recommend{
+    margin-left: 9%;
+}
+.recommend input{
+    margin-left: 34%;
+    padding-bottom:-40%;
+
+}
+#recommend1{
+    margin-top: -45px;
+}
+.like{
+    padding-left: 9%;
+}
+.improve{
+    margin-left:9%;
+}
+.improve input{
+    margin-left: 34%;
+}
+#improve1{
+    margin-top: -70px;
+}
+.comment{
+    margin-left: 11%;
+}
+.comment textarea{
+    margin-left: 33%;
+}
+.comment1{
+    margin-top: -35px;
+}
+.button{
+    margin-left: 10%;
+	width: 80%; 
+	background-color: rgba(29, 95, 14, 0.904);
+	color:#fff;
+	font-size: 25px;
+	padding:30px;
+	border: none; 
+	padding: 10px;
+    margin-bottom: 30px;
+    
+	
+}
+
